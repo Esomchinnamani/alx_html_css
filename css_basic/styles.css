@@ -1,0 +1,28 @@
+body {
+   display: flex;
+   flex-direction: column;
+    
+}
+
+main {
+   display: flex;
+   flex-direction: row;
+   flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    color: orange;
+    background-color: brown;
+    padding: 5px;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+body.works_on_smartphone main {
+        display: block;
+  }
