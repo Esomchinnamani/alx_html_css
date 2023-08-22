@@ -375,11 +375,10 @@
     flex-direction: row-reverse
   }
 
-/* Section Latest news ============================= */
-
-.row .section-services {
-  flex-wrap: wrap;
-}
+  /* Section SERVICES ============================= */
+  .row .section-services {
+flex-wrap: wrap;
+  }
 
   /*** 4. CARD ***/
   
