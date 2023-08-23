@@ -43,10 +43,6 @@
     --line-height-big: 1.8;
   
     /** SECTION **/
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-    }
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
@@ -204,6 +200,9 @@
   /* Navbar
       ============================= */
   
+  .navbar-menu {
+  }
+  
   .nav {
     margin: 0;
     padding: 0;
@@ -247,9 +246,13 @@
     width: 100%;
   }
   
-  /* Header
-      ============================= */
+  /* Header  ============================= */
   
+  .header-container {
+display: flex;
+justify-content: space-between;
+  }
+
   .header {
     padding: var(--header-padding);
          position: relative;
@@ -257,6 +260,12 @@
          background: transparent;
   }
   
+  .header-logo a {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
+  }
   
   /* Footer
       ============================= */
